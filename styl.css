@@ -1,0 +1,39 @@
+#text {
+    border: blue;
+}
+#title {
+    background-color: darkorange;
+    text-align: center;
+    font-size: xxx-large;
+    text-shadow: 2px 2px blue;
+}
+
+
+
+body {background-color: lightslategray;}
+
+#komp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+}
+
+#kompinfo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large ;
+}
+
+#cbscn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#p1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#liceum {
+    background-color: darkturquoise;
+}
