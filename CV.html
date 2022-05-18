@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, 
         initial-scale="3">
 <link rel="stylesheet" href="styl.css">
+
+<script>
+        $(document).ready(function(){
+            $('#show').click(function() {
+              $('.menu').toggle("slide");
+            });
+        });
+        </script>
 </HEAD>
 
 <BODY>
@@ -21,13 +29,22 @@
 
                         <p id="csnt"><b> Co potrafię: </b></p>
                          <p id="csn">   + Proste programy w Javie</br> 
-                                        <a href="https://www.blender.org/">+ Blender</a></br>   
+                                        <a href="https://www.blender.org/">+ Blender</a></br> </p>  
+                                        <div id="blender"> + Blender </div>
+                                                <div class="menu" style="display:none ;">
+                                                <p>
+                                                        Blender umożliwia projektowanie 3D</br>
+                                                        Również umożliwia animacje</br>
+                                                        <a href="https://www.blender.org/">+ Blender</a></br> 
+                                                </p>
+                                                </div>
+                        <p id="csn">
                                         + HTML</br>
                                         + Budowa Komputerów</br>
                                         <a href="https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html">+ Biblioteka Std.Draw</a></br>
                                         + Lokalizacja plików w Javie</br> 
                                         + Systemy liczenia</br>
-                                        <a href="https://www.arduino.cc/">+ Arduino.</a></br>  
+                                        <a href="https://www.arduino.cc/">+ Arduino.</a></br>  </p>
                            </p> 
                         </BODY>
                         
